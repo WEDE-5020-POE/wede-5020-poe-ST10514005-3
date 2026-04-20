@@ -48,5 +48,18 @@ Week 1 ( 5 April)
 ![alt text](<img/Site Map for website.png>)
 
 ## References
-
-Ensure that all sources used in your assignment are cited and referenced using the Harvard referencing style.
+<p>
+(Harvard referencing style)
+[Accessed: 20 March 2026]
+BakeryBusinessBoss. 19 May 2025, Five Content Ideas for a bakery website Available at: Home - Bakery Business Boss
+[Accessed : 24 March 2026]
+Bakerita | gluten free and vegan Baking ,2025 . ultimate chocolate cupcakes , available at: Bakerita | Gluten Free, Dairy Free & Refined Sugar Free Recipes
+[Accessed : 24 March 2026]
+Chefdora , 2020. Scones (Dikuku).[Image online] Available at: Chefadora - Share & Discover Recipes from Around the World | Chefadora
+[Accessed : 24 March 2026]
+Essencce cheese, 2026 . Easy cherry Cheescake Recipe( baked and no bake versions)[Image online] , Available at: home - essencecheese
+[Accessed : 11 March 2026]
+Erasmas,B_l Strydom,J.W and Rudansky-Kloppers,S.(eds.) 2023. Introduction to business management 12th edition . Cape Town : Oxford University Press
+[Accesed: 20 March 2026]
+Muffingroup . 8 January 2026, Stunning Bakery Website design examples to inspire you, Available at: Muffin Group | The Most Popular WordPress Theme In The World
+</p>
