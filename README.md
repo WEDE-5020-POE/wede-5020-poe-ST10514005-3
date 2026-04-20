@@ -5,6 +5,7 @@ Small Business:Baker
 **Student number:** ST10514005 <br>
 **Student Name:** Ntokozo Latoya Mkwanazi
 
+
 ## Project Overview
 
 HONEYBUNNY CRUMMY BAKERY 
@@ -15,7 +16,15 @@ first small storefront keeping it’s homemade charm while expanding it’s menu
 
 ## Website Goals and Objectives
 
-The main objective is to establish an e-commerce business for Honeybunny Crummy bakery where customers from different locations can order and purchase baked goods efficiently . We want to provide a platform were not just regular day to day customers are welcome but also companies abd organisation who would love to feature Honeybunny Crummy's freshley baked goods at their workspaces and social events.It won't just be website for a bakery it's going to be a "honey bunny crummy" experince were we engage with our customers and give them the platform to create the bakery's best treat everyweek.
+1. The main objective is to establish an e-commerce business for Honeybunny Crummy bakery where customers from different locations can order and purchase baked goods efficiently .
+2. We want to provide a platform were not just regular day to day customers are welcome but also companies abd organisation who would love to feature Honeybunny Crummy's freshley baked goods at their workspaces and social events.
+3. It won't just be website for a bakery it's going to be a "honey bunny crummy" experince were we engage with our customers and give them the platform to create the bakery's best treat everyweek.
+
+## Key Features and Functionality
+1. Homepage- the homepage will introduce Honeybunny Crummy bakery to the audience by the use of graphics that include of appealing images of the baked goods that are highly recommended.
+2. The homepage will also include of icons, search bar and navigation bar where the user can readily access any services information they desire.
+3. The products page - the products page will include a categorized variety list which will consist of all baked goods that will be sold by the bakery.
+4. An online ordering system will be implemented by means of enabling customers to place orders and make purchases on the bakery's website. 
 
 ## Timeline and Milestones
 
