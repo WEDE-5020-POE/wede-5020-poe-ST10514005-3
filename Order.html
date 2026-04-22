@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order- Honeybunny Crummy Bakery</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>Honeybunny Crummy Bakery</h1>
+        <h2>Order Page</h2>
+        <hr>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="order.html">Order</a>
+        <a href="enquiry.html">Enquiry</a>
+    </nav>
+
+    <hr>
+
+   <!--Order Form-->
+   <section>
+    <h2>Place Your Order</h2>
+    <p>Please fill in the form below to place your order. We will contact you to confirm the details.</p>
+<form action="/action_page.php">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="product">Select Product:</label>
+    <select id="product" name="product" required>
+        <option value="">--Please choose an option--</option>
+        <option value="bread">Bread</option>
+        <option value="cupcake">Cupcake</option>
+        <option value="cake">Cake</option>
+        <option value="pastry">Pastry</option>
+    </select><br><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+
+    <input type="submit" value="Place Order">
+</form>
+
+<footer>
+    <hr>
+    <p>&copy; 2024 Honeybunny Crummy Bakery. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
