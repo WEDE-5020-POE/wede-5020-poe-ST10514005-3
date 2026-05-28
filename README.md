@@ -13,6 +13,7 @@ Honeybunny crummy bakery began as a heartfelt gesture in 2020, when it’s found
 Sindiswa Mchunu started baking from home, sharing her most delicious treats with 
 friends , neighbours and local students. By 2022 , HoneyBunny Bakery opened it’s 
 first small storefront keeping it’s homemade charm while expanding it’s menu.
+HoneyBunny Crummy bakery is a creative bakery website desdigned to showcase bakery products, customer review, interaction and bakery aspets in a fun appealing way. 
 
 ## Website Goals and Objectives
 
@@ -25,6 +26,7 @@ first small storefront keeping it’s homemade charm while expanding it’s menu
 2. The homepage will also include of icons, search bar and navigation bar where the user can readily access any services information they desire.
 3. The products page - the products page will include a categorized variety list which will consist of all baked goods that will be sold by the bakery.
 4. An online ordering system will be implemented by means of enabling customers to place orders and make purchases on the bakery's website. 
+5. Future updates will include an online payment system , improved responsiveness, customer accounts , and a fully functional bakery ordering system.
 
 ## Timeline and Milestones
 
