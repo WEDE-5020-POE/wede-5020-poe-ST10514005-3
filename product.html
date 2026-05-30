@@ -10,8 +10,10 @@
 
   <!-- This is the header -->  
    <header>
+     <div class="logo">
     <h1>Honeybunny Crummy Bakery</h1>
     <h2>Here's what we have in store for you!</h2>
+     </div>
    </header>
 
 
@@ -29,129 +31,232 @@
     </nav>
 
 <button type="button" onclick="alert('Add to cart')">Order now!</button>
+ 
+<section class="product-content">
+<h1>Our delicious collection</h1>
+<p class="intro-text">Made with the finest ingredients and baked with love.</p>
 
-    <hr>
 
     <!-- Bread Section-->
-     <section class="product-content">
-        <h2>Our Freshley Baked Bread</h2>
+     
+        <h2 class="category-title">Our Freshley Baked Bread</h2>
 
         <div class="product-grid">
-            <h3 class="product-title">Bread</h3>
 
-           <div class="product-card">
-            <img src="img/sourdough bread.jpg" alt="bread"class="product-img">
-             <p class="product-description">Crusty sourdough bread with a chewy interior and a tangy flavor</p>
-             <p class="product-price"><strong>Price:</strong>R25</p>
-
-            <img src="img/bread platter.jpg"alt="bread"class="product-img">
-             <p class="product-description">soft and fluffy bread with a golden crust</p>
-             <p class="production-description"><strong>Price:</strong>R20</p>
-            <p class="product-description">Crispy on the outside, fluffy on the inside topped with sesame seeds </p>
-            <p class-="product-price"><strong>Price:</strong>R20</p>
-        </div>
-        
-        <div class="product-card"> 
-            <h3 class="product-title">plain white/brown bread</h3>
-            <img src="img/How to make AMAZING homemade bread + step by step video.jpg"alt="white brown"class="product-img">
-            <img src="img/🌾 Homemade Multigrain Bread – Nutty, Hearty & Wholesome! 🍞✨.jpg"alt="brown bread"class="product-img">
-           <p class="product-description"> a variety of white and brown bread</p>
-           <p class="product-price"><strong>Price:</strong>R12</p>
-        </div>
-
-        
         <div class="product-card">
-            <h3 class="product-title">Scones</h3>
-            <img src="img/Scones (Dikuku).jpg"alt="scones"class="product-image">
-             <p class="product-description">buttery scones with a golden crust and a soft, crumbly interior
-             <p class="product-description"><strong>Price:</strong>R12 per packet</p>
-            <img src="img/424017501be3a14c4500cca34b49188e.jpg"alt="scones"class="product-image">
-            <p class="product-description">vanilla baked scones with a glaze of butter</p>
-            <p class="product-price"><strong>Price:</strong>R12 per packet</p>
+            <img src="img/sourdough bread.jpg" alt="bread"class="product-image">
+            <h3>Bread</h3>
+             <p>Crusty sourdough bread with a chewy interior and a tangy flavor</p>
+             <span class="price">R25</span>
+        </div>
+        </div>
+
+            <div class="product-card">
+            <img src="img/bread platter.jpg"alt="bread">
+            <div class="product-info">
+            <h3>Bread</h3>
+             <p>soft and fluffy bread with a golden crust</p>
+            <p>Crispy on the outside, fluffy on the inside topped with sesame seeds </p>
+             <span class="price">R20</span>
+        </div>
+        </div>
+
+        <div class="product-card"> 
+            <img src="img/How to make AMAZING homemade bread + step by step video.jpg"alt="white brown">
+            <img src="img/🌾 Homemade Multigrain Bread – Nutty, Hearty & Wholesome! 🍞✨.jpg"alt="brown bread">
+            <div class="product-info">
+            <h3>plain white/brown bread</h3>
+           <p> a variety of white and brown bread</p>
+           <span class="price">R12</span>
+        </div>
+        </div>
+
+    </div>
+    
+    <!--Scones-->
+    <h2 class="category-title">Scones</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+
+            <img src="img/Scones (Dikuku).jpg"alt="scones">
+            <div class="produt-info">
+            <h3>Scones</h3>
+             <p>buttery scones with a golden crust and a soft, crumbly interior</p>
+            <span class="price">R12 per packet</span>
+            </div>
             </div>
 
             <div class="product-card">
-        <hr>
+            <img src="img/424017501be3a14c4500cca34b49188e.jpg"alt="scones">
+            <div class="product-info">
+            <p>vanilla baked scones with a glaze of butter</p>
+            <span class="price">R12 per packet</span>
+            </div>
+            </div>
 
+            </div>
+        
         <!-- Cupcake Section-->
-         <section class="product-content">
-         <h3 class="product-price">Cupcakes</h3>
+         <h2 class="category-title">Cupcakes</h2>
 
+         <div class="product-grid">
+
+          <div class="product-card">
+        
          <img src="img/chocolate .jpg"alt="plain chocolate cupcakes">
-         <p class="product-description">simple but yet delicious chocolate cupcake</p>
-         <p class="product-description"><strong>Price:</strong>R6 each</p>
-         <img src="img/Strawberry Shortcake Cupcakes How to Make Irresistible Summer Treats - cheeseandchill.jpg"alt="strawberry shortcake"class="product-image">
-         <p class="product-description">irresistable strawberry shortcake cupcakes</p>
-         <p class="product-description"><strong>Price:</strong>R12 each</p>
-         <img src="img/La recette des Cupcakes Red Velvet pour la Saint-Valentin.jpg"alt="red velvet cupcakes"class="product-image">
-         <p class="product-description">Rich and moist redvelvet cupakes with some topped with frosting</p>
-         <p class="product-price"><strong>Price:</strong>R15 each</p>
+         <div class="product-info">
+          <h3>Cupcakes</h3>  
+         <p>simple but yet delicious chocolate cupcake</p>
+        <span class="price">R6</span> 
         </div>
-     </section>
+        </div>
 
-     <hr>
+        <div class="product-card">
+         <img src="img/Strawberry Shortcake Cupcakes How to Make Irresistible Summer Treats - cheeseandchill.jpg"alt="strawberry shortcake">
+         <div class="product-info">
+         <h3>strawberry short cake cupcake</h3>
+         <p>irresistable strawberry shortcake cupcakes</p>
+         <span class="price">R12 each</span>
+         </div>
+         </div>
+
+         <div class="product-card">
+         <img src="img/La recette des Cupcakes Red Velvet pour la Saint-Valentin.jpg"alt="red velvet">
+         <p>Rich and moist redvelvet cupakes with some topped with frosting</p>
+         <span class="price">R15 each</span>
+        </div>
+        </div>
+    
+    </div>
+
 
      <!-- Cake Section-->
-    <section class="product-content">
-        <h3 class="product-title" >Cakes</h3>
+    <h2 class="category-title">Cakes</h2>
 
-        <div class="product-card">
+    <div class="product grid">
+        
+     <div class="product-card">
+
             <h3>Death by chocolate cake</h3>
-            <img src="img/ca66fb36d06c53d9ed2251aa25bfbddb.jpg"alt="chocolate cake"class="product-image">
-            <img src="img/Dark chocolate mud cake with deep cocoa flavor.jpg"alt="slice of cake"class="product-image">
-            <p class="product-description">A fully enriched chocolate cake covered by chocolate frosting and syrup</p>
-            <p class="product-price"p><strong>Price:</strong>R250</p>
+            <img src="img/ca66fb36d06c53d9ed2251aa25bfbddb.jpg"alt="chocolate cake">
+            <h3>Death by chocolate cake</h3>
+            <p>A fully enriched chocolate cake covered by chocolate frosting and syrup</p>
+            <span class="price">R250</span>
+            </div>
             </div>
 
+         <div class="product-card">
+         <img src="img/Dark chocolate mud cake with deep cocoa flavor.jpg"alt="slice of cake">
+         <div class="product-info">
+            <h3>chocolate cake</h3>
+            <p>Dark chocolate mud cake with deep cocoa flavor</p>
+            <span class="price">R40 for a slice</span>
             <div class="product-card">
-                <h3 class="product-title">Vanilla cake</h3>
-            <img src="img/Vanilla Cake.jpg"alt="vanilla cake"class="product-image">
-            <p class="product-description">vanilla cake coated with buttercream</p>
-            <p class="product-price"><strong>Price:R150</strong></p>
+                </div>
+                </div>
+                 
+                <div class="product-card">
+                
+            <img src="img/Vanilla Cake.jpg"alt="vanilla cake">
+            <div class="product-info">
+            <h3 class="product-title">Vanilla cake</h3>
+            <p>vanilla cake coated with buttercream</p>
+            <span class="price">R150</span>
+        </div>
         </div>
 
         <div class="product-card"> 
-            <h3 class="product-title" >Carrot Cake</h3>
-            <img src="img/Classic Homemade Carrot Cake Recipe.jpg"alt="carrot cake"class="product-image">
-            <p class="product-description">fluffy carrot coated with vanilla icing and topped with hazelnuts</p>
-            <p class="product-price"><strong>Price:R250</strong></p>
+        
+            <img src="img/Classic Homemade Carrot Cake Recipe.jpg"alt="carrot cake">
+            <div class="product-info">
+            <h3>Carrot Cake</h3>
+            <p>fluffy carrot coated with vanilla icing and topped with hazelnuts</p>
+            <span class="price">R250</span>
+        </div>
         </div>
         
         <div class="product-card">
-            <h3 class="product-title">Cheesecake</h3>
-            <img src="img/Easy & Creamy Cherry Cheesecake Recipe Everyone Will Love.jpg"alt="Cheesecake"class="product-image">
-            <p class="product-description">delicate cheesecake soothened by the strawberry syrup and topped with  cherries</p>
-            <p class="product-price"><strong>Price:R300</strong></p>
+            <img src="img/Easy & Creamy Cherry Cheesecake Recipe Everyone Will Love.jpg"alt="Cheesecake">
+            <div class="product-info">
+             <h3>Cheesecake</h3>
+            <p>delicate cheesecake soothened by the strawberry syrup and topped with  cherries</p>
+            <span class="price">R300</span>
         </div>
-    </section>
+        </div>
 
-    <hr>
+        </div>
+    
+
+    
 
 <!-- Pasteries Section-->
- <section class="product-content">
-    <h2>Pasteries</h2>
+ <h2 class="category-title">Pasteries</h2>
+
+    <div class="product-grid">
 
     <div class="product-card">
-        <h3 class="product-title">Croissants</h3>
+        
         <img src="img/Chocolate Croissant.jpg"alt="chocolate criossant">
-        <p class="product-description">chocolate infused criossants</p>
-        <p class="product-description"><strong>Price:R20 each</strong></p>
-        <img src="img/The pastry shown in the image is a croissant_.jpg">
-        <p class="product-description">snowflake powdered croissant</p>
-        <p class="product-price"><strong>Price:R14 each</strong></p>
+        <div class="product-info">
+         <h3>Croissants</h3>
+        <p>chocolate infused criossants</p>
+        <span class="price">R20</span>
+        </div>
+        </div>
+        
+        </div>
+        <div class="product-card">
+        <img src="img/The pastry shown in the image is a croissant_.jpg"alt="croissant">
+          <div class="product-info">
+          <h3>Croissants</h3>
+        <p>snowflake powdered croissant</p>
+        <span class="price">R14</span>
     </div>
- </section>
+    </div>
+
+</div>
 
  <!--Custom Orders Section-->
- <section class="product-content">
-    <h3 class="product-title">Custom Orders</h3>
-    <p class="product-description">Need something extraodinary? We design custom cakes for birthdays, weddings and events.</p>
-    <img src="img/15 Best Cake Ideas for Women Birthday - Various Ideas.jpg"alt="custom cake"class="product-image">
-    <img src="img/short cake 🍰.jpg"alt="custom cake"class="product-image">
-    <img src="img/download (5).jpg"alt="custom cake"class="product-image">
-     <p class="product-price"><strong>Price:</strong>Contact us for a quote</p>
+ <p>Need something extraodinary? We design custom cakes for birthdays, weddings and events.</p>
+    
+    <h2 class="category title">Custom Orders</h2>
+
+    <div class="product-grid">
+
+    <div class="product-card">
+
+    <img src="img/15 Best Cake Ideas for Women Birthday - Various Ideas.jpg"alt="custom cake">
+     <div class="product-info">
+     <h3>Cake</h3>
+        <p>Birthday inspired cake</p>
+        <span class="price"></span>
+        </div>
+        </div>
+
+     <div class="product-card">  
+    <img src="img/short cake 🍰.jpg"alt="custom cake">
+    <div class="product-info">
+        <h3>Shortcake</h3>
+        <p>Strawberry short cake</p>
+        <span class="price"></span>
+        </div>
+        </div>
+
+     <div class="product-card">
+    <img src="img/download (5).jpg"alt="custom cake">
+    <div class="product-info">
+     <h3>Cake</h3>
+        <p>Custom cake</p> 
+    <span class="price"></span>
+     </div>
+     </div>
+
+     </div>
+
  </section>
- <hr>
+
 
 <!-- Footer Section--> 
  <p>&copy;2020 Honeybunny Crummy Bakery| All Rights Reserved</p>
