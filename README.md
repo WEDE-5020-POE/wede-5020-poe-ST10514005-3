@@ -47,8 +47,9 @@ Week 1 ( 5 April)
 
 ## Sitemap
 
-![alt text](<img/Site Map for website.png>)
-
+![Website sitemap flowchart for bakery project on a white background with homepage as central node connected to about us products special offers order online and contact sections in a clear linear structure](<img/Site Map for website.png>)
+Improved sitemap in reference to part one:
+![Improved detailed site map diagram on white background showing homepage branching to about us products order enquiry and contact us pages with text labels for bakery history menu order form enquiry details and contact information](<img/Site map Diagram.drawio.png>)
 ## References
 <p>
 (Harvard referencing style)
