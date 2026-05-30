@@ -28,6 +28,9 @@ HoneyBunny Crummy bakery is a creative bakery website desdigned to showcase bake
 4. An online ordering system will be implemented by means of enabling customers to place orders and make purchases on the bakery's website. 
 5. Future updates will include an online payment system , improved responsiveness, customer accounts , and a fully functional bakery ordering system.
 
+## Screenshot of website layout on different browser
+![Honeybunny Crummy Bakery homepage screenshot with pink gradient background, large red heading, black rounded navigation buttons for Home About us Product Order Enquiry Contact, and a featured bakery logo card on the right.](<img/Screenshot 2026-05-30 120521.png>)
+![Browser screenshot showing the bakery homepage with pink background, heading Freshly baked joy, subheading Enjoy delicious baked goods in the heart of Pretoria, and a large Honeybunny Crummy logo graphic inside a white card panel.](<img/Screenshot 2026-05-29 223021.png>)
 ## Timeline and Milestones
 
 Week 1 ( 5 April)
