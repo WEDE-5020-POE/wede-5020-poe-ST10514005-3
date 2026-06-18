@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Honeybunny Crummy Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <h1>Honeybunny Crummy Bakery</h1>
+            <h2>Checkout</h2>
+        </div>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="cart.html">Order</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!--Checkout Form-->
+    <section class="checkout-content">
+        <h1>Complete Your Order</h1>
+
+        <form id="checkout-form">
+
+            <label for="customerName">Name:</label>
+            <input type="text" id="customerName" required>
+
+            <br><br>
+
+            <label for="customerEmail">Email Address:</label>
+            <input type="email" id="customerEmail" required>
+
+            <br><br>
+
+            <label for="customerPhone">Phone Number</label>
+            <input type="tel" id="customerPhone" name="customerPhone" required>
+
+            <br><br>
+
+            <label for="customerAddress">Delivery Address:</label>
+            <textarea id="customerAddress"
+                name="customerAddress"
+                rows="4"
+                cols="40"
+                required></textarea>
+
+                <br><br>
+
+                <h3>Order Summary</h3>
+
+              <div id="checkout-items">
+                <!-- JavaScript will display the selected products here-->
+
+              </div> 
+
+              <h3 id="checkout-total">
+                Total: R0
+
+              </h3>
+
+              <h3>Payment Method</h3>
+
+              <input type="radio"
+              id="card"
+              name="payment"
+              value="Card"
+              required>
+              <label for="card">Card Payment</label>
+
+              <br>
+
+              <input type="radio"
+              id="eft"
+              name="payment"
+              value="EFT">
+              <label for="eft">EFT</label>
+
+              <br>
+
+              <input type="radio"
+              id="cash"
+              name="payment"
+               value="Cash on Delivery">
+               <label for="cash">Cash on Delivery</label>
+
+               <br><br>
+
+               <button type="submit" class="place-order-btn">
+               Place Order
+            </button>
+            
+<p id="order-message"></p>
+            </form>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footer-content">
+                
+                <div class="footerlinks">
+                    <h3>Quick Links</h3>
+
+                    <a href ="index.html">Home</a>
+                    <a href ="about.html">About Us</a>
+                    <a href ="product.html">Products</a>
+                    <a href ="cart.html">Cart</a>
+                    <a href ="enquiry.html">Enquiry</a>
+                    <a href ="contact.html">Contact</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+
+                    <p>Pretoria, South Africa</p>
+                    <p>+27 711 735873</p>
+                    <p>info@honeybunnycrummy.co.za</p>
+            </div>
+
+            </div>
+
+            <p>&copy; 2020 Honeybunny Crummy Bakery | All Rights Reserved</p>
+
+        </footer>
+
+        <script src="js/script.js"></script>
+
+        </body>
+        </html>
+
+
+            
+
+            
+        
