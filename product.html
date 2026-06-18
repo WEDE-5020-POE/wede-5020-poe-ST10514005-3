@@ -23,18 +23,26 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="order.html">Order</a></li>
+            <li><a href="product.html">Products</a></li>
+             <li><a href="cart.html">Cart</a></li>
+             <li><a href="checkout.html">Checkout</a></li>
             <li><a href="enquiry.html">Enquiry</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-<button type="button" onclick="alert('Add to cart')">Order now!</button>
- 
+
 <section class="product-content">
 <h1>Our delicious collection</h1>
 <p class="intro-text">Made with the finest ingredients and baked with love.</p>
+
+
+<li>
+        <a href="cart.html">
+            Cart (<span id="cart-count">0</span>)
+        </a>
+    </li>
+
 
 
     <!-- Bread Section-->
@@ -48,6 +56,14 @@
             <h3>Bread</h3>
              <p>Crusty sourdough bread with a chewy interior and a tangy flavor</p>
              <span class="price">R25</span>
+
+             <button
+             class="add-to-cart-btn"
+             data-product="Sourdough Bread"
+             data-price="25">
+             Add to Cart
+             </button>
+
         </div>
         </div>
 
@@ -58,6 +74,12 @@
              <p>soft and fluffy bread with a golden crust</p>
             <p>Crispy on the outside, fluffy on the inside topped with sesame seeds </p>
              <span class="price">R20</span>
+             <button
+             class="add-to-cart-btn"
+             data-product="Soft and Fluffy Bread"
+             data-price="20">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -68,6 +90,12 @@
             <h3>plain white/brown bread</h3>
            <p> a variety of white and brown bread</p>
            <span class="price">R12</span>
+                <button
+                class="add-to-cart-btn"
+                data-product="Plain White/Brown Bread"
+                data-price="12">
+                Add to Cart
+                </button>
         </div>
         </div>
 
@@ -85,6 +113,12 @@
             <h3>Scones</h3>
              <p>buttery scones with a golden crust and a soft, crumbly interior</p>
             <span class="price">R12 per packet</span>
+            <button
+             class="add-to-cart-btn"
+             data-product="Buttery Scones"
+             data-price="12">
+             Add to Cart
+             </button>
             </div>
             </div>
 
@@ -93,6 +127,12 @@
             <div class="product-info">
             <p>vanilla baked scones with a glaze of butter</p>
             <span class="price">R12 per packet</span>
+            <button
+             class="add-to-cart-btn"
+             data-product="Vanilla Baked Scones"
+             data-price="12">
+             Add to Cart
+             </button>
             </div>
             </div>
 
@@ -109,7 +149,13 @@
          <div class="product-info">
           <h3>Cupcakes</h3>  
          <p>simple but yet delicious chocolate cupcake</p>
-        <span class="price">R6</span> 
+        <span class="price">R6</span>
+        <button
+             class="add-to-cart-btn"
+             data-product="Simple Chocolate Cupcake"
+             data-price="6">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -119,6 +165,12 @@
          <h3>strawberry short cake cupcake</h3>
          <p>irresistable strawberry shortcake cupcakes</p>
          <span class="price">R12 each</span>
+         <button
+             class="add-to-cart-btn"
+             data-product="Strawberry Shortcake Cupcakes"
+             data-price="12">
+             Add to Cart
+             </button>
          </div>
          </div>
 
@@ -126,6 +178,12 @@
          <img src="img/La recette des Cupcakes Red Velvet pour la Saint-Valentin.jpg"alt="red velvet">
          <p>Rich and moist redvelvet cupakes with some topped with frosting</p>
          <span class="price">R15 each</span>
+         <button
+             class="add-to-cart-btn"
+             data-product="Red Velvet Cupcakes"
+             data-price="15">
+             Add to Cart
+             </button>
         </div>
         </div>
     
@@ -144,6 +202,12 @@
             <h3>Death by chocolate cake</h3>
             <p>A fully enriched chocolate cake covered by chocolate frosting and syrup</p>
             <span class="price">R250</span>
+                <button
+                class="add-to-cart-btn"
+                data-product="Death by Chocolate Cake"
+                data-price="250">
+                Add to Cart
+                </button>
             </div>
             </div>
 
@@ -153,9 +217,14 @@
             <h3>chocolate cake</h3>
             <p>Dark chocolate mud cake with deep cocoa flavor</p>
             <span class="price">R40 for a slice</span>
-            <div class="product-card">
-                </div>
-                </div>
+            <button
+             class="add-to-cart-btn"
+             data-product="Dark Chocolate Mud Cake"
+             data-price="40">
+             Add to Cart
+             </button>
+            </div>
+            </div>
                  
                 <div class="product-card">
                 
@@ -164,6 +233,12 @@
             <h3 class="product-title">Vanilla cake</h3>
             <p>vanilla cake coated with buttercream</p>
             <span class="price">R150</span>
+            <button
+             class="add-to-cart-btn"
+             data-product="Vanilla Cake"
+             data-price="150">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -174,6 +249,12 @@
             <h3>Carrot Cake</h3>
             <p>fluffy carrot coated with vanilla icing and topped with hazelnuts</p>
             <span class="price">R250</span>
+            <button
+             class="add-to-cart-btn"
+             data-product="Carrot Cake"
+             data-price="250">
+             Add to Cart
+             </button>
         </div>
         </div>
         
@@ -183,6 +264,12 @@
              <h3>Cheesecake</h3>
             <p>delicate cheesecake soothened by the strawberry syrup and topped with  cherries</p>
             <span class="price">R300</span>
+            <button
+             class="add-to-cart-btn"
+             data-product="Cheesecake"
+             data-price="300">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -203,6 +290,12 @@
          <h3>Croissants</h3>
         <p>chocolate infused criossants</p>
         <span class="price">R20</span>
+        <button
+             class="add-to-cart-btn"
+             data-product="Chocolate Infused Croissants"
+             data-price="20">
+             Add to Cart
+             </button>
         </div>
         </div>
         
@@ -213,6 +306,12 @@
           <h3>Croissants</h3>
         <p>snowflake powdered croissant</p>
         <span class="price">R14</span>
+        <button
+             class="add-to-cart-btn"
+             data-product="Snowflake Powdered Croissant"
+             data-price="14">
+             Add to Cart
+             </button>
     </div>
     </div>
 
@@ -232,6 +331,12 @@
      <h3>Cake</h3>
         <p>Birthday inspired cake</p>
         <span class="price"></span>
+        <button
+             class="add-to-cart-btn"
+             data-product="Birthday Inspired Cake"
+             data-price="">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -241,6 +346,12 @@
         <h3>Shortcake</h3>
         <p>Strawberry short cake</p>
         <span class="price"></span>
+        <button
+             class="add-to-cart-btn"
+             data-product="Strawberry Shortcake"
+             data-price="">
+             Add to Cart
+             </button>
         </div>
         </div>
 
@@ -250,6 +361,12 @@
      <h3>Cake</h3>
         <p>Custom cake</p> 
     <span class="price"></span>
+    <button
+             class="add-to-cart-btn"
+             data-product="Custom Cake"
+             data-price="">
+             Add to Cart
+             </button>
      </div>
      </div>
 
@@ -267,7 +384,8 @@
                <a href="index.html">Home</a>
                <a href="about.html">About us</a>
                <a href="product.html">Product</a>
-               <a href="order.html">Order</a>
+                <a href="cart.html">Cart</a>
+               <a href="checkout.html">Checkout</a>
                <a href="enquiry.html">Enquiry</a>
                <a href="contact.html">Contact</a>
 
@@ -283,12 +401,12 @@
                 </div>
 
                 </div>
-
+ 
 
         <p>&copy; 2020 Honeybunny Crummy Bakery | All Rights Reserved
 
  
         </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
