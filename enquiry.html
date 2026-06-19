@@ -47,21 +47,29 @@
   <!--Email-->
   
   <label for="femail">Email:</label><br>
-  <input type="text" id="femail" name="email" value=""><br>
+  <input type="text" id="femail" name="email" value="">
+  <small id="email-feedback"></small><br>
 
   <!--Phone-->
 <label for="fphone">Phone Number:</label><br>
-<input type="text" id="fphone" name="phone" value=""><br>
+<input type="text" id="fphone" name="phone" value="">
+<small id="phone-feedback"></small><br>
 
   <!--Enquiry-->
   <label for="ftype">Enquiry Type:</label><br>
-<select id="type" name="type"><option value="general">General Question</option><option value="order">Custom Order</option><option value="pricing">Pricing Information</option></select><br><br>
+<select id="type" name="type"><option value="general">General Question</option><option value="order">Custom Order</option><opti on value="pricing">Pricing Information</option><option value="delivery">Delivery Enquiry</option><option value="bulk">Bulk Order</option></select><br><br>
 
 <!--Message-->
-<label for="message">Your Message:</label><br><textarea id="message"name="message" rows="5 cols=30"required></textarea><br><br>
+<label for="message">Your Message:</label><br><textarea id="message"
+name="message"
+rows="5"
+cols="30"
+required></textarea><br><br>
  
 <!--Submit-->
 <input type="submit" value="Submit Enquiry">
+
+<p id="enquiry-message"></p>
 
 </form> 
    </section>
