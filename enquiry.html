@@ -36,7 +36,7 @@
    <section class="enquiry-content">
     <h2>Send Us an Enquiry</h2>
     <p>Please fill in the form below and we will get back to you as soon as possible.</p>
-<form action="/action_page.php">
+<form id="enquiry-form">
 
     <!-- Name -->
   <label for="fname">First name:</label><br>
@@ -57,7 +57,7 @@
 
   <!--Enquiry-->
   <label for="ftype">Enquiry Type:</label><br>
-<select id="type" name="type"><option value="general">General Question</option><option value="order">Custom Order</option><opti on value="pricing">Pricing Information</option><option value="delivery">Delivery Enquiry</option><option value="bulk">Bulk Order</option></select><br><br>
+<select id="type" name="type"><option value="general">General Question</option><option value="order">Custom Order</option><option value="pricing">Pricing Information</option><option value="delivery">Delivery Enquiry</option><option value="bulk">Bulk Order</option></select><br><br>
 
 <!--Message-->
 <label for="message">Your Message:</label><br><textarea id="message"
@@ -69,7 +69,7 @@ required></textarea><br><br>
 <!--Submit-->
 <input type="submit" value="Submit Enquiry">
 
-<p id="enquiry-message"></p>
+
 
 </form> 
    </section>
@@ -113,10 +113,25 @@ required></textarea><br><br>
                 </div>
 
 
-        <p>&copy; 2020 Honeybunny Crummy Bakery | All Rights Reserved
+        <p>&copy; 2020 Honeybunny Crummy Bakery | All Rights Reserved</p>
 
  
         </footer>
+        
+        <div id="success-popup" class="popup">
+    <div class="popup-content">
+        <h2>🎉 Enquiry Sent!</h2>
+        <p>
+            Thank you for contacting Honeybunny Crummy Bakery.
+            We have received your enquiry and will get back to you shortly.
+        </p>
+
+        <button id="close-popup">
+            OK
+        </button>
+    </div>
+</div>
+
 <script src="js/script.js"></script>
 </body>
 </html>
