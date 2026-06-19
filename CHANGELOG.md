@@ -38,8 +38,11 @@ Part 2
 .Added pricing information for bakery products.
 .Added a special Offers scetion to promote discount deals
 .Added a featured Products section showcasing highly recommended treeats
-.
-.
+Part 3
+.Added cart html page
+.Added checkout html page
+.Added homepage javascript functionality
+.Added validations to forms
 
 ### Changed
 - Added a welcome message to the homepage
@@ -61,7 +64,9 @@ Part 2
 -Improved sitemap struture to better represent website hierarchy and page content
 Updated footer design to include social media access and quick navigation links
 -Improved typography and spacing throughout multiple web pages 
-
+Part 3
+-Removed order html page
+-Enhanced navigation flow
 ### Fixed
 - Rearranged menu items into categories
 - Fixed missing headings on some menu sections
@@ -81,7 +86,11 @@ Part 2
 -Fixed spacing issues between sections on homepage
 -Fixed hover animation inconsistencies across product cards.
 -Fixed dsplay isssues affecting promtotional offers section
-
+Part 3
+-Implemented clickable product items
+-created a working shopping cart system
+-Fixed cart functionality issues
+-Ensured items appear in the cart
 ## Semantic Versioning
 
 Format: MAJOR.MINOR.PATCH  
