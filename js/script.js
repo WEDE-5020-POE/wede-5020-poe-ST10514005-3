@@ -233,8 +233,12 @@ if (checkoutForm) {
         const phoneFeedback = 
         document.getElementById("phone-feedback");
 
-        const enquiryMessage =
-        document.getElementById("enquiry-message");
+         const popup =
+        document.getElementById("success-popup");
+
+    const closePopup =
+        document.getElementById("close-popup");
+
 
         //Email validation
         emailInput.addEventListener("input", () =>  {
@@ -276,24 +280,205 @@ if (checkoutForm) {
 
             event.preventDefault();
 
-            const firstName =
-            document.getElementById("fname").value;
+popup.style.display = "flex";
 
-            enquiryMessage.innerHTML = `
-            Thank you, ${firstName}!
-            Your enquiry has been submitted successfully
-            We will contact you shortly.
-            `;
+enquiryForm.reset();
 
-            enquiryMesssage.style.color = "green";
-            enquiryMessage.style.fontWeight = "bold";
+emailFeedback.textContent = "";
+phoneFeedback.textContent = "";
 
-            enquiryForm.reset();
-
-            emailFeedback.textContent = "";
-            phoneFeedback.textContent = "";
-        });
-            
+ setTimeout(() => {
+                popup.style.display = "none";
+            }, 3000);
         }
+    );
 
-    
+    // Close popup button
+    closePopup.addEventListener(
+        "click",
+        function () {
+            popup.style.display = "none";
+        }
+    );
+}
+
+
+        //Contact page javascript 
+
+        const contactForm = document.getElementById("contact-form");
+
+        if (contactForm) {
+
+            const emailInput = document.getElementById("customerEmail");
+            const phoneInput = document.getElementById("customerPhone");
+
+            //Create feedback messages
+            const emailFeedback = document.createElement("small");
+            const phoneFeedback = document.createElement("small");
+
+            emailInput.after(emailFeedback);
+            phoneInput.after(phoneFeedback);
+
+        // Email Validation
+    emailInput.addEventListener("input", () => {
+
+        const emailPattern =
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (emailPattern.test(emailInput.value)) {
+            emailFeedback.textContent =
+                "✓ Valid email address";
+            emailFeedback.style.color = "green";
+        } else {
+            emailFeedback.textContent =
+                "✗ Please enter a valid email address";
+            emailFeedback.style.color = "red";
+        }
+    });
+
+    // South African Phone Validation
+    phoneInput.addEventListener("input", () => {
+
+        const phonePattern =
+            /^0\d{9}$/;
+
+        if (phonePattern.test(phoneInput.value)) {
+            phoneFeedback.textContent =
+                "✓ Valid phone number";
+            phoneFeedback.style.color = "green";
+        } else {
+            phoneFeedback.textContent =
+                "✗ Enter a valid 10-digit phone number";
+            phoneFeedback.style.color = "red";
+        }
+    });
+
+    // Submit Form
+    contactForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        const customerName =
+            document.getElementById("customerName").value;
+
+        alert(
+            `🎂 Thank you, ${customerName}!
+
+Your message has been prepared successfully.
+
+Click OK to continue sending your email to Honeybunny Crummy Bakery.`
+        );
+
+        // Opens user's email application
+        window.location.href =
+            "mailto:info@honeybunnycrummy.co.za";
+
+        // Reset form
+        contactForm.reset();
+
+        emailFeedback.textContent = "";
+        phoneFeedback.textContent = "";
+    });
+}
+
+const mapContainer =
+    document.getElementById("map");
+
+if (mapContainer) {
+
+    const map = L.map("map").setView(
+        [-25.521991, 28.108446],
+        15
+    );
+
+    L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+            attribution:
+                "&copy; OpenStreetMap contributors"
+        }
+    ).addTo(map);
+
+    const marker = L.marker(
+        [-25.521991, 28.108446]
+    ).addTo(map);
+
+    marker.bindPopup(
+        `
+        <h3>🎂 Honeybunny Crummy Bakery</h3>
+        <p>
+            714 Block H<br>
+            Pretoria, South Africa
+        </p>
+        `
+    );
+
+    marker.openPopup();
+}
+
+// Sweet Quotes
+const quoteBtn =
+    document.getElementById("quote-btn");
+
+const quoteText =
+    document.getElementById("quote-text");
+
+const quotes = [
+
+    "🧁 Happiness is homemade.",
+
+    "🍪 Life is what you bake of it.",
+
+    "🎂 A party without cake is just a meeting.",
+
+    "🍰 Sweet treats make sweet memories.",
+
+    "🥐 Every day deserves a little dessert."
+
+];
+
+if (quoteBtn) {
+
+    quoteBtn.addEventListener(
+        "click",
+
+        function () {
+
+            const random =
+                Math.floor(
+                    Math.random() *
+                    quotes.length
+                );
+
+            quoteText.textContent =
+                quotes[random];
+        }
+    );
+}
+
+// Greeting Message
+const welcome =
+    document.getElementById("welcome-message");
+
+if (welcome) {
+
+    const hour =
+        new Date().getHours();
+
+    if (hour < 12) {
+        welcome.textContent =
+            "🌸 Good Morning! Start your day with something sweet!";
+    }
+    else if (hour < 18) {
+        welcome.textContent =
+            "🧁 Good Afternoon! Treat yourself to freshly baked delights!";
+    }
+    else {
+        welcome.textContent =
+            "🍰 Good Evening! End your day with something delicious!";
+    }
+}
+             
+
+        
+
