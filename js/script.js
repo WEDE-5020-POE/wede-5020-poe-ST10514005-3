@@ -218,13 +218,82 @@ if (checkoutForm) {
 
     displayCheckout();
 
+    //Enquiry page javascript
 
+    const enquiryForm = document.querySelector(".enquiry-content form");
 
+    if (enquiryForm) {
 
+        const emailInput = document.getElementById("femail");
+        const phoneInput = document.getElementById("fphone");
 
+        const emailFeedback = 
+        document.getElementById("email-feedback");
 
+        const phoneFeedback = 
+        document.getElementById("phone-feedback");
 
+        const enquiryMessage =
+        document.getElementById("enquiry-message");
 
+        //Email validation
+        emailInput.addEventListener("input", () =>  {
+             
+            const emailPattern = 
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+            if (emailPattern.test(emailInput.value)) {
+                emailFeedback.textContent =
+                "Valid email address";
+                emailFeedback.style.color = "green";
+            } else {
+                emailFeedback.textContent = 
+                "Please enter a valid email";
+                emailFeedback.style.color = "red";
+            }
+        });
+        
+        //South African phone validation
+        phoneInput.addEventListener("input", () => {
+                
+            const phonePattern =
+            /^0\d{9}$/;
+
+            if (phonePattern.test(phoneInput.value)) {
+                phoneFeedback.textContent =
+                "Valid phone number";
+                phoneFeedback.style.color = "green";
+            } else {
+                phoneFeedback.textContent =
+                "Enter a valid 10-digit phone number";
+                phoneFeedback.style.color = "red";
+            }
+
+        });
+
+        //Submit form
+        enquiryForm.addEventListener("submit", function (event){
+
+            event.preventDefault();
+
+            const firstName =
+            document.getElementById("fname").value;
+
+            enquiryMessage.innerHTML = `
+            Thank you, ${firstName}!
+            Your enquiry has been submitted successfully
+            We will contact you shortly.
+            `;
+
+            enquiryMesssage.style.color = "green";
+            enquiryMessage.style.fontWeight = "bold";
+
+            enquiryForm.reset();
+
+            emailFeedback.textContent = "";
+            phoneFeedback.textContent = "";
+        });
+            
+        }
 
     
