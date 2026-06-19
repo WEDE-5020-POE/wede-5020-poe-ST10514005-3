@@ -478,6 +478,68 @@ if (welcome) {
             "🍰 Good Evening! End your day with something delicious!";
     }
 }
+
+if (closeLightbox) {
+
+    closeLightbox.addEventListener(
+        "click",
+        function () {
+
+            lightbox.style.display =
+                "none";
+        }
+    );
+}
+
+const galleryImages =
+    document.querySelectorAll(
+        ".gallery-img"
+    );
+
+const lightbox =
+    document.getElementById(
+        "lightbox"
+    );
+
+const lightboxImg =
+    document.getElementById(
+        "lightbox-img"
+    );
+
+const closeLightbox =
+    document.getElementById(
+        "close-lightbox"
+    );
+
+galleryImages.forEach(image => {
+
+    image.addEventListener(
+        "click",
+        function () {
+
+            lightbox.style.display =
+                "flex";
+
+            lightboxImg.src =
+                image.src;
+        }
+    );
+});
+
+if (closeLightbox) {
+
+    closeLightbox.addEventListener(
+        "click",
+        function () {
+
+            lightbox.style.display =
+                "none";
+        }
+    );
+}
+
+
+
              
 
         
